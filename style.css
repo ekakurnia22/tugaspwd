@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bgrd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    margin: 40px 100px 150px 80px;
+    padding: 50px 60px 50px 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+
+
+  

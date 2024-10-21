@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Daftar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="form">
+        <h1>Form Pendaftaran Seminar</h1>
+
+        <form id="form" method="POST" action="send_register.php">
+            <div class="box-input">
+                <input type="text" name="nama" placeholder="Nama Lengkap">
+            </div><br/>
+            <div class="box-input">
+                <input type="text" name="email" placeholder="E-mail">
+            </div><br/>
+            <div class="box-input">
+                <input type="text" name="institusi" placeholder="Institusi">
+            </div><br/>
+            <div class="box-input">
+                <input type="text" name="alamat" placeholder="Alamat">
+            </div><br/>
+            <div class="box-input">
+                <input type="text" name="asal_negara" placeholder="Asal Negara">
+            </div><br/>
+            <input type="submit" value="Daftar" href="send_register.php">
+        </form>
+    </div>
+</body>
+</html>
